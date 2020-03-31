@@ -1,0 +1,5 @@
+alias cp="cp -v"
+alias mv="mv -v"
+alias rm="rm -iv"
+
+alias gs="git status"
