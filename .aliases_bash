@@ -3,4 +3,4 @@ alias mv="mv -v"
 alias rm="rm -iv"
 
 alias gs="git status"
-alias start_postgres="pg_ctlcluster 11 main start"
+alias start_postgres="sudo -u postgres pg_ctlcluster 11 main start"

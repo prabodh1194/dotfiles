@@ -46,3 +46,16 @@ nmap <F9> :set ignorecase! ignorecase? <cr>
 
 " select all
 nnoremap <leader>a ggvG$
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
+
+" netrw
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+let g:netrw_winsize = 25
+nnoremap <F3> :Lexplore<CR>
+vnoremap <F3> :Lexplore<CR>
+
+" fugitive
+nnoremap <leader>gs :GitGutterStageHunk<CR>
