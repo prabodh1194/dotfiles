@@ -3,7 +3,7 @@
 List of packages that I'm currently using.
 
 #### Linux OS
- * Ubuntu 20.04 LTS over WSL
+ * Ubuntu 18.04 LTS over WSL
 
 #### Java
  * jdk 11 (LTS) available via ubuntu
