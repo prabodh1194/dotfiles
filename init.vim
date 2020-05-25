@@ -8,6 +8,7 @@ set cc=80                   " set an 80 column border for good coding style
 set cursorcolumn
 set cursorline
 set expandtab               " converts tabs to white space
+set foldmethod=indent       " fold
 set gdefault                " sub with global
 set hlsearch                " highlight search results
 set ignorecase              " case insensitive matching
