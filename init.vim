@@ -63,3 +63,4 @@ nnoremap <leader>gs :GitGutterStageHunk<CR>
 
 " ctrlp
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+nnoremap <leader>b :CtrlPBuffer<CR>
