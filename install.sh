@@ -21,9 +21,9 @@ ln -s $PWD/.aliases_bash ~/.aliases_bash
 mv -v ~/.vimrc ~/.vimrc.old
 ln -s $PWD/.vimrc ~/.vimrc
 
-mkdir -p ~/.config/nvim/plugin
-
+mkdir -p ~/.config/nvim
 mv -v ~/.config/nvim/init.vim ~/.config/nvim/init.vim.old
 ln -s $PWD/init.vim ~/.config/nvim/init.vim
 
+mkdir -p ~/.config/nvim/plugin
 ln -s $PWD/plugins.vim ~/.config/nvim/plugin/plugins.vim

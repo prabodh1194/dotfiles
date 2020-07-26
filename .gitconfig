@@ -1,0 +1,8 @@
+[user]
+	email = prabodh1194@gmail.com
+	name = Prabodh Agarwal
+[alias]
+	co = checkout
+	ci = commit
+	pl = pull --rebase
+    cim = commit --amend
