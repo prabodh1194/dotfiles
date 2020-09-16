@@ -6,6 +6,8 @@ fi
 
 echo "Installing"
 
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 mv -v ~/.zshrc ~/.zshrc.old
 ln -s $PWD/.zshrc ~/.zshrc
 
