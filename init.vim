@@ -14,6 +14,7 @@ set hlsearch                " highlight search results
 set ignorecase              " case insensitive matching
 set incsearch
 set matchpairs+=<:>
+set matchpairs+=`:`
 set mouse=v                 " middle-click paste with mouse
 set nocompatible            " disable compatibility to old-time vi
 set nowrapscan              " don't rollback search
@@ -44,6 +45,9 @@ vnoremap / /\v
 
 " toggle case sensitivity
 nmap <F9> :set ignorecase! ignorecase? <cr>
+
+" toggle tagbar
+nmap <F8> :Tagbar <cr>
 
 " select all
 nnoremap <leader>a ggvG$

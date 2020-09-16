@@ -1,6 +1,14 @@
 alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -iv"
+alias vim="nvim"
+
 
 alias gs="git status"
-alias start_postgres="sudo /etc/init.d/postgresql start"
+alias gssl="git stash list"
+alias gsss="git stash show"
+alias gssp="git stash push"
+alias gsso="git stash pop"
+
+
+alias god="cd $GOPATH/src/github.com/dunzoit"
