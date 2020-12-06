@@ -38,6 +38,7 @@ Plug 'maxmellon/vim-jsx-pretty'                         " jsx indent
 Plug 'ludovicchabant/vim-gutentags'                     " gutentags
 Plug 'majutsushi/tagbar'                                " tagbar
 Plug 'fatih/vim-go'                                     " vim-go
+Plug 'preservim/nerdtree'                               " nerdtree
 
 call plug#end()
 
